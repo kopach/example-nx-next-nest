@@ -2,6 +2,14 @@
   "extends": "../../tsconfig.base.json",
   "files": [],
   "include": [],
+  "compilerOptions": {
+    "paths": {
+      "ROOT/*": ["./apps/my-nest-app/src/app/*"],
+      // TODO: taken from ../../tsconfig.base.json
+      // https://github.com/Microsoft/TypeScript/issues/20110#issuecomment-573995238
+      "@example-next/api/interfaces": ["libs/api/interfaces/src/index.ts"]
+    }
+  },
   "references": [
     {
       "path": "./tsconfig.app.json"
