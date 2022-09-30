@@ -2,7 +2,9 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "api-interfaces": "libs/api/interfaces",
     "app1": "apps/app1",
-    "app1-e2e": "apps/app1-e2e"
+    "app1-e2e": "apps/app1-e2e",
+    "my-nest-app": "apps/my-nest-app"
   }
 }
