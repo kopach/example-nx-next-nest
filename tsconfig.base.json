@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@example-next/api/interfaces": ["libs/api/interfaces/src/index.ts"]
+      "@example-next/api/interfaces": ["libs/api/interfaces/src/index.ts"],
+      "@example-next/simple-component-react-16": [
+        "libs/simple-component-react-16/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
