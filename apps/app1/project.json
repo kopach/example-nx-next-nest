@@ -23,7 +23,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "app1:build",
-        "dev": true
+        "dev": true,
+        "proxyConfig": "apps/app1/proxy.conf.json"
       },
       "configurations": {
         "development": {
