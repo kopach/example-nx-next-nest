@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { Message } from '@example-next/api/interfaces';
+import Link from 'next/link';
 import useSWR, { SWRConfig } from 'swr';
 
 const StyledPage = styled.div`
@@ -70,6 +71,9 @@ function NXContent() {
             Welcome app1 👋
           </h1>
         </div>
+        <Link href="/home">
+          <a>Go Home</a>
+        </Link>
 
         <div id="hero" className="rounded">
           <div className="text-container">

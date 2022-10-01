@@ -1,8 +1,11 @@
 {
   "dependencies": {
-    "react": "16.14.0"
-  },
-  "devDependencies": {
-    "@types/react": "16.14.32"
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
+    "@faker-js/faker": "7.5.0",
+    "@mui/icons-material": "5.10.6",
+    "@mui/material": "5.10.7",
+    "date-fns": "2.29.3",
+    "material-react-table": "1.2.5"
   }
 }
